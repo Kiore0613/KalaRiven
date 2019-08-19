@@ -1,3 +1,193 @@
 <resources>
-    <string name="app_name">Actividad_Eva1</string>
+    <string name="app_name">Hardware Category</string>
+
+    <string name="student_name">Aaron Alejando Reynoza Valdez - 25-0712-2015</string>
+
+    <string name="back">Back</string>
+
+    <string name="Exit">Exit</string>
+
+    <string name="desktop1">CyberPowerPC - Gaming Desktop - Intel Core i9-9900K - 16GB Memory - NVIDIA RTX 2070 - 1TB SSD - Black
+        Take out the competition with this CyberPowerPC gaming computer. The Intel Core i9 processor and 16GB of RAM boost efficiency, 
+        and the NVIDIA GeForce RTX graphics card produces stunning visuals to bring game environments to life. 
+        This CyberPowerPC gaming computer has a 1TB solid state drive for your favorite titles and DLC.
+    </string>
+    
+    <string name="desktop2">CyberPowerPC - Gaming Desktop - Intel Core i9-9900K - 32GB Memory - NVIDIA GeForce RTX 2080 Ti
+        - 3TB HDD + 1TB SSD– Black The Syber Forti series represents the ultimate in PC gaming.
+        It is a Liquid-Cooled base Super Full-Sized Tower gaming desktop designed
+        with only the latest and greatest gaming technology and future expandability in mind. You can fill it up with all of the upgrades
+        to meet your needs while still have ample airflow to keep the system cool. 
+    </string>
+
+    <string name="desktop3">CyberPowerPC - Gaming Desktop - Intel Core i9-9900K - 16GB Memory
+        - NVIDIA GeForce RTX 2080 Ti - 4TB HDD + 500GB SSD - Black Experience fluid gaming with this CyberPowerPC Syber Cube desktop computer.
+        The 16GB of memory let you multitask across several programs at once, and the 500GB SSD loads applications and Windows 10 at high speeds.
+        This CyberPowerPC Syber Cube desktop computer features an Intel Core i9 processor for quick execution of complex tasks and commands.
+    </string>
+
+    <string name="desktop4">HP - OMEN Obelisk by HP Desktop - Intel Core i7-9700 - 16GB Memory
+        - NVIDIA GeForce GTX 1660 Ti - 1TB Hard Drive + 256GB SSD - Shadow Black Front Bezel/Dark Chrome Logo
+        HP OMEN Obelisk by HP Desktop: Play graphically intense games with this HP OMEN Obelisk desktop computer. You can easily store large
+        amounts of media and other data on the 1TB hard drive and install games and programs on the 256GB SSD for fast access. 
+    </string>
+
+    <string name="desktop5"> HP - Gaming Desktop - Intel Core i5-8400 - 8GB Memory - NVIDIA GTX 1060 - 1TB HDD + 256GB SSD - Black
+        HP Pavilion Gaming Desktop: Play the latest computer games with this HP Pavilion PC. The 3GB NVIDIA GeForce GTX 1060 graphics
+        card smoothly displays vivid details, while the 2.6GHz Intel Core i5 and 8GB of DDR4 RAM provide speed to minimize loading times.
+        This HP Pavilion PCs 1TB 7200 rpm hard drive lets you access files quickly.
+    </string>
+
+    <string name="pc1">LG - gram 17 Laptop - Intel Core i7 - 16GB Memory - 512GB Solid-State Drive - Dark Silver
+        Windows 10 operating system
+        This laptop is compatible with Windows 10.
+        8th Gen Intel Core™ i7-8565U mobile processor
+        Ultra-low-voltage platform. Dual-core, four-way processing provides high-efficiency power to go.
+        The Intel Turbo Boost technology delivers dynamic extra power when you need it.
+    </string>
+
+    <string name="pc2">Dell - G3 15.6 Gaming Laptop - Intel Core i7 - 16GB Memory - NVIDIA GeForce GTX 1660Ti - 512GB SSD
+        Windows 10 operating system
+        Brings back the Start menu from Windows 7 and introduces new features, such as the Edge web browser that lets you mark up web pages
+        on your screen.
+        9th Gen Intel Core i7-9750H mobile processor
+        Low-voltage platform. Powerful six-core, twelve-way processing provides blazing-fast performance when you need it most.
+        The Intel Turbo Boost technology delivers dynamic power on demand.
+    </string>
+
+    <string name="pc3">Apple - MacBook Pro 15.4 Laptop - Intel Core i9 - 16GB Memory - AMD Radeon Pro 560X - 512GB Solid-State Drive - Space Gray
+        Features
+        9th generation 8-core Intel Core i9 processors
+        Brilliant Retina display with True Tone technology
+        Touch Bar and Touch ID
+        Radeon Pro 560X graphics with 4GB of video memory
+        Ultrafast SSD
+        Four Thunderbolt 3 (USB-C) ports
+        Up to 10 hours of battery life*
+        802.11ac Wi-Fi
+    </string>
+
+    <string name="pc4">Microsoft - Surface Pro 6 - 12.3 Touch-Screen - Intel Core i5 - 8GB Memory - 128GB Solid State Drive (Latest Model)
+        - Platinum
+        Windows 10 Home
+        Youll experience fast start-ups, a familiar yet expanded Start menu, and great new ways to get stuff done. And with automatic
+        updates enabled,
+        you get all the latest features and security hassle-free.
+        Whisper-quiet fanless cooling system
+        Included with the i5 model.3
+        Create on screen
+        Using Surface Dial (sold separately) and Surface Pen (sold separately).
+    </string>
+
+    <string name="pc5">Samsung - Notebook 7 Spin 2-in-1 15.6 Touch-Screen Laptop - AMD Ryzen 5 - 8GB Memory - 256GB Solid State Drive
+        - Black Garnet
+        Windows 10 operating system
+        Windows 10 brings back the Start Menu from Windows 7 and introduces new features, like the Edge Web browser that lets you markup
+        Web pages on your screen.
+        Ryzen 5
+        Enjoy high application performance and smoother gaming experiences with AMD Ryzen 5 processors, with machine intelligence,
+        multitasking capabilities and efficient architecture with up to 6 cores and 12 processing.
+    </string>
+
+    <string name="key1">HyperX - Alloy Core RGB Wired Gaming Membrane Keyboard with RGB Lighting
+        Enhance your in-game performance with this HyperX Alloy Core RGB gaming keyboard.
+        Its soft-touch keys are equipped with anti-ghosting functionality to prevent accidental keystrokes,
+        and the dedicated media controls provide quick access to frequently used functions for seamless operation.
+        This HyperX Alloy Core RGB gaming keyboard is housed in a reinforced plastic frame for maximum stability.
+    </string>
+
+    <string name="key2">HyperX - Alloy FPS Pro Wired Mechanical Gaming USB Keyboard - Cherry Red MX Switch
+        Match your challengers shot for shot with this HyperX Alloy FPS Pro mechanical gaming keyboard.
+        Versatile lighting options let you game with confidence, and the Cherry MX mechanical keys offer solid, tactile response.
+        This HyperX Alloy FPS Pro mechanical gaming keyboard is compact in size so you can easily take part in tournaments.
+    </string>
+
+    <string name="key3">Logitech - G413 Wired Gaming Mechanical Romer-G Switch Keyboard with Backlighting - Silver
+        Connect this Logitech mechanical gaming keyboard to your desktop computer, and keep up with the action of your PC games.
+        Backlit keys let you battle it out even during late-night gaming sessions, and Romer-G switches ensure fast responses
+        at the stroke of the key. This Logitech mechanical gaming keyboard is programmable to easily meld with your gameplay.
+    </string>
+
+    <string name="key4">Logitech - G513 RGB Wired Gaming Mechanical Romer-G Tactile Switch Keyboard – Silver
+        Stay in the game with this Logitech RGB mechanical gaming keyboard. The 1ms response rate delivers fast reaction for keeping up
+        with battles or chasing down treasure, while the mechanical switches provide a satisfying feel and actuation.
+        LIGHTSYNC technology means you can customize the lighting on the keyboard to suit your playing style. Combining
+        a full-length palm rest with a classic metal chassis, this Logitech RGB mechanical gaming keyboard is made for serious gaming support.
+    </string>
+
+    <string name="key5">Logitech - Orion Spectrum G910 Wired Gaming Mechanical Romer-G Switch Keyboard with RGB Backlighting - Black
+        Maintain full control of your gaming commands with the customizable, illuminated keys on this Orion Spectrum mechanical gaming keyboard.
+        Connect the unit to a smartphone or tablet to display in-game information when you need a second screen.
+        Anti-ghosting protection keeps the Orion Spark mechanical gaming keyboard from freezing up during intense gaming sessions.
+    </string>
+
+    <string name="mouse1">Apple - Magic Mouse 2 - Silver
+        The all-new Magic Mouse 2 has been enhanced to deliver more comfort and functionality than ever before. It includes a built-in
+        rechargeable
+        lithium-ion battery that charges fast, lasts about a
+        month or more between charges, and eliminates the need for disposable batteries. With the included Lightning to USB cable, you can charge
+        your device and automatically pair it with any Mac.
+    </string>
+
+    <string name="mouse2">Logitech - MX Master 2S Wireless Laser Mouse - Graphite
+        Darkfield Laser Tracking works on virtually every surface, even glass
+        This technology creates a micromap of the smallest possible details to allow tracking on shiny surfaces and clear glass
+        (at least 4mm thick).
+        7 buttons
+        Provide access to frequently used commands and functions for powerful control.
+    </string>
+
+    <string name="mouse3">Logitech - M510 Wireless Laser Mouse - Silver/Black
+        Quickly input commands with this Logitech M510 910-001822 mouse that features laser technology for precision tracking on most surfaces.
+        The Logitech unifying receiver allows simple wireless connectivity.
+        Laser technology
+        Enables smooth, ultrafast tracking on most surfaces.
+    </string>
+
+    <string name="mouse4">Microsoft - Sculpt Comfort Wireless Optical Mouse - Black
+        Microsoft Sculpt Comfort H3S-00003 Wireless Mouse: This ergonomic, right-handed mouse features a scooped thumb design
+        and a 4-way scroll wheel for easy Web browsing. Blue Track technology allows accurate use across a wide range of surface types.
+        4-direction scroll wheel
+        Scroll wheel can be used to scroll both vertically and horizontally.
+    </string>
+
+    <string name="mouse5"> Insignia Bluetooth Mouse Black
+        Utilize your mouse more efficiently with this Insignia six button Bluetooth mouse.
+        It incorporates forward and backwards buttons as well as a scrolling wheel and left and right buttons,
+        and the dpi button lets you change sensitivity on the fly. This Insignia six-button Bluetooth mouse is wireless so that you can use it
+        anywhere thats in range.
+    </string>
+
+    <string name="monitor1">LG - 27UL600-W 27 IPS LED 4K UHD FreeSync Monitor with HDR - Silver/White
+        Enjoy a stunning LED display with this 27-inch LG monitor. The 4K UHD resolution and VESA DisplayHDR deliver vivid scenes
+        to keep you captivated
+        by your favorite shows and movies, and IPS technology maintains consistent colors at various viewing angles. This LG monitors
+        Radeon FreeSync matches your graphics cards frame rate for a stutter-free experience.
+    </string>
+
+    <string name="monitor2">LG - 32 UltraFine IPS LED 4K UHD FreeSync Monitor with HDR
+        Work on professional creative projects with this 31.5-inch LG UltraFine 4K monitor. Nano IPS and VESA DisplayHDR 600 color technologies
+        provide accurate display of image details for precise color grading and efficiency in various post-production tasks.
+        The Thunderbolt 3 interface of this LG UltraFine 4K monitor supports daisy-chaining, high-speed data transfers and laptop charging.
+    </string>
+
+    <string name="monitor3">Samsung - UJ59 Series U32J590UQN 32" LED 4K UHD FreeSync Monitor - Dark Gray/Blue
+        Enjoy enhanced viewing with this 32-inch Samsung monitor. The widescreen display lets you browse multiple windows
+        and applications comfortably, and the upscaling technology boosts the clarity of lower resolutions to match UHD-level picture quality.
+        This Samsung monitor uses AMD FreeSync technology to maintain a consistent refresh rate for smooth visual performance.
+        Supporting a billion shades of color, the UJ59 delivers incredibly vivid and realistic images.
+    </string>
+
+    <string name="monitor4">BenQ - EW3270U 32" HDR LED 4K UHD FreeSync Monitor - Metallic Gray
+        Watch 4K and HDR content with this 32-inch BenQ LED monitor. Its Brightness Intelligence Plus Technology detects ambient lighting
+        conditions
+        for optimal adjustment of display settings while preserving the cinematic quality of videos.
+        This BenQ LED monitor has preset low blue light settings for multimedia, web-surfing, reading and office modes to support eye safety.
+    </string>
+
+    <string name="monitor5">Samsung - 34 LED Curved QHD FreeSync Monitor – White/Silver
+        Enhance your viewing experience with this 34-inch Samsung Thunderbolt monitor. Its 21:9 aspect ratio lets you multitask
+        by browsing various windows and applications side-by-side, and the curved design reduces eyestrain while providing maximum immersion.
+        This Samsung Thunderbolt monitor uses AMD FreeSync technology to deliver smooth frames for gaming and video playback.
+    </string>
 </resources>
