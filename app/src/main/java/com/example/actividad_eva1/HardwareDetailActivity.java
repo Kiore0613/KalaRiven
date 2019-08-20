@@ -9,7 +9,7 @@ import android.widget.TextView;
 
 import com.example.actividad_eva1.Adapters.Hardware;
 
-public class HardwareDetailActivity extends AppCompatActivity implements View.OnClickListener {
+public class HardwareDetailActivity extends AppCompatActivity{
 
     Button backButton, exitButton;
     TextView hardwareName, hardwareDetail;
@@ -40,24 +40,14 @@ public class HardwareDetailActivity extends AppCompatActivity implements View.On
         hardwareName.setText(name);
         hardwareImage.setImageResource(image);
 
-        Buttons();
     }
 
-    @Override
-    public void onClick(View v) {
-        switch (v.getId()) {
-            case R.id.back_button:
-                finish();
-                break;
-            case R.id.exit_button:
-                finishAffinity();
-                break;
-        }
+    public void exit(View exit_button){
+        finishAffinity();
+    }
+    public void back(View back_button){
+        finish();
     }
 
-    public void Buttons() {
-        backButton.setOnClickListener(this);
-        exitButton.setOnClickListener(this);
-    }
 
 }

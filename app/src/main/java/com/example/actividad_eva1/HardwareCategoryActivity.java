@@ -7,6 +7,7 @@ import android.support.v7.widget.DividerItemDecoration;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
+import android.widget.Button;
 
 import com.example.actividad_eva1.Adapters.Category;
 import com.example.actividad_eva1.Adapters.Hardware;
@@ -17,7 +18,7 @@ import java.util.ArrayList;
 public class HardwareCategoryActivity extends AppCompatActivity implements
         HardwareCategoryAdapter.OnItemClick
         {
-
+            Button backButton, exitButton;
     RecyclerView categoryRecyclerView;
     ArrayList<Category> categoryList;
     ArrayList<Hardware> pc;
@@ -25,6 +26,8 @@ public class HardwareCategoryActivity extends AppCompatActivity implements
     ArrayList<Hardware> mouse;
     ArrayList<Hardware> keyboard;
     ArrayList<Hardware> monitor;
+
+
 
     public static final String CAT = "category";
 
@@ -34,6 +37,8 @@ public class HardwareCategoryActivity extends AppCompatActivity implements
         setContentView(R.layout.hardware_category_main);
 
         categoryRecyclerView = findViewById(R.id.category_recyclerview);
+        backButton = findViewById(R.id.back_button);
+        exitButton = findViewById(R.id.exit_button);
 
         categoryList = new ArrayList<>();
         pc = new ArrayList<>();
@@ -100,4 +105,13 @@ public class HardwareCategoryActivity extends AppCompatActivity implements
                 categoryList.add(new Category(R.drawable.monitor, monitor, "MONITOR"));
                 categoryList.add(new Category(R.drawable.key, keyboard, "KEYBOARD"));
             }
-}
+
+            public void exit(View back_button){
+                finishAffinity();
+            }
+            public void back(View exit_button){
+                finish();
+            }
+
+
+        }

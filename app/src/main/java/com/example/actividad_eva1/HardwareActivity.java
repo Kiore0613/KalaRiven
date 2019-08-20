@@ -16,8 +16,7 @@ import com.example.actividad_eva1.Adapters.HardwareAdapter;
 import java.util.ArrayList;
 
 public class HardwareActivity extends AppCompatActivity implements
-        HardwareAdapter.OnItemClick,
-        View.OnClickListener
+        HardwareAdapter.OnItemClick
 {
 
     Button backButton, exitButton;
@@ -43,23 +42,17 @@ public class HardwareActivity extends AppCompatActivity implements
         hardwareRecyclerView.addItemDecoration(
                 new DividerItemDecoration(this,DividerItemDecoration.VERTICAL));
 
-        Buttons();
+
 
     }
-
-
-
-    @Override
-    public void onClick(View v) {
-        switch (v.getId()){
-            case R.id.back_button:
-                finish();
-                break;
-            case R.id.exit_button:
-                finishAffinity();
-                break;
-        }
+    public void exit(View exit_button){
+        finishAffinity();
     }
+
+    public void back(View back_button){
+        finish();
+    }
+
 
     @Override
     public void OnContainerClick(Hardware hardware) {
@@ -67,12 +60,6 @@ public class HardwareActivity extends AppCompatActivity implements
         intent.putExtra(CAT, hardware);
         startActivity(intent);
     }
-
-    public void Buttons(){
-        backButton.setOnClickListener(this);
-        exitButton.setOnClickListener(this);
-    }
-
 
 
 }
