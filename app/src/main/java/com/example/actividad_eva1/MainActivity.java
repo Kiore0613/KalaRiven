@@ -10,18 +10,23 @@ import com.example.actividad_eva1.Adapters.HardwareCategoryAdapter;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button start_Activity;
+    Button startActivity, exitActivity;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        start_Activity = findViewById(R.id.start_button);
+        startActivity = findViewById(R.id.start_button);
+        exitActivity = findViewById(R.id.exit_button);
     }
 
     public void start(View start_button){
         Intent intent = new Intent(getApplicationContext(), HardwareCategoryActivity.class);
         startActivity(intent);
-        }
+    }
+
+    public void exit(View exit_button){
+        finishAffinity();
+    }
 
 }

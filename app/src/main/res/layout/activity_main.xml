@@ -12,8 +12,8 @@
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
         android:layout_marginTop="284dp"
-        android:text="@string/student_name"
         android:padding="15sp"
+        android:text="@string/student_name"
         android:textColor="@color/mainColor"
         android:textSize="40dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -34,7 +34,27 @@
         android:typeface="normal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.555"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/student_name"
+        app:layout_constraintVertical_bias="1.0"
         tools:text="Start App" />
+
+    <Button
+        android:id="@+id/exit_button"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="105dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="8dp"
+        android:onClick="exit"
+        android:text="Exit"
+        android:textColor="@color/mainColor"
+        android:textStyle="bold|italic"
+        android:typeface="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/start_button"
+        app:layout_constraintVertical_bias="0.159" />
 </android.support.constraint.ConstraintLayout>
