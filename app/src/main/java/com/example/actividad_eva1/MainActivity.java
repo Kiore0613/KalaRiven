@@ -6,8 +6,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import com.example.actividad_eva1.Adapters.HardwareCategoryAdapter;
-
 public class MainActivity extends AppCompatActivity {
 
     Button startActivity, exitActivity;
@@ -21,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void start(View start_button){
-        Intent intent = new Intent(getApplicationContext(), HardwareCategoryActivity.class);
+        Intent intent = new Intent(getApplicationContext(), ParcialActivity.class);
         startActivity(intent);
     }
 
