@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.provider.MediaStore;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ListView;
 
 import com.example.actividad_eva1.Adapters.Picture;
@@ -18,6 +19,7 @@ public class ParcialActivity extends AppCompatActivity {
         ListView listViewPicture;
         static final int IMAGE = 1;
         ArrayList<Picture> pictureList;
+        Button backButton, exitButton;
 
 
     @Override
@@ -26,7 +28,8 @@ public class ParcialActivity extends AppCompatActivity {
         setContentView(R.layout.activity_parcial);
         pictureList = new ArrayList<>();
 
-
+        backButton = findViewById(R.id.back_button);
+        exitButton = findViewById(R.id.exit_button);
         listViewPicture = findViewById(R.id.list_view_main);
         PictureAdapter  picture = new PictureAdapter( pictureList, this);
         listViewPicture.setAdapter(picture);
@@ -47,6 +50,12 @@ public class ParcialActivity extends AppCompatActivity {
             pictureList.add(new Picture(imageBitmap));
 
         }
+    }
+    public void exit(View exit_button){
+        finishAffinity();
+    }
+    public void back(View back_button){
+        finish();
     }
 
 

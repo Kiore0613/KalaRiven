@@ -44,6 +44,8 @@ public class PictureAdapter extends BaseAdapter {
         convertView = LayoutInflater.from(context).inflate(R.layout.list_view_item, null);
         ImageView pictureImg = convertView.findViewById(R.id.img_list);
         pictureImg.setImageBitmap(item.getPicture());
+        convertView.setMinimumHeight(1000);
+        convertView.setMinimumWidth(500);
         return convertView;
     }
 }
