@@ -29,7 +29,7 @@ public class PictureAdapter extends BaseAdapter {
 
     @Override
     public Object getItem(int position) {
-        return pictureList.size();
+        return pictureList.get(position);
     }
 
     @Override
@@ -39,6 +39,7 @@ public class PictureAdapter extends BaseAdapter {
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
+
         Picture item = (Picture) getItem(position);
         convertView = LayoutInflater.from(context).inflate(R.layout.list_view_item, null);
         ImageView pictureImg = convertView.findViewById(R.id.img_list);
