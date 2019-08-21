@@ -1,6 +1,7 @@
 package com.example.actividad_eva1.Adapters;
 
 import android.content.Context;
+import android.graphics.Bitmap;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -15,6 +16,12 @@ public class PictureAdapter extends BaseAdapter {
 
     ArrayList<Picture>pictureList;
     Context context;
+
+    public PictureAdapter(ArrayList<Picture> pictureList, Context context) {
+        this.pictureList = pictureList;
+        this.context = context;
+    }
+
     @Override
     public int getCount() {
         return pictureList.size();
