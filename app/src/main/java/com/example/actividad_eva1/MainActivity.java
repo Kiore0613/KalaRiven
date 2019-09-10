@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void start(View start_button){
-        Intent intent = new Intent(getApplicationContext(), ParcialActivity.class);
+        Intent intent = new Intent(getApplicationContext(), Main2Activity.class);
         startActivity(intent);
     }
 
